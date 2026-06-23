@@ -264,12 +264,10 @@ img { max-width: 100%; display: block; }
 .project-image {
     width: 100%;
     height: auto;
-    max-height: 350px;
     object-fit: contain;
     display: block;
     background-color: var(--white);
     border-bottom: 1px solid var(--border);
-    padding: 15px;
 }
 
 .project-content {
