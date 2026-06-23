@@ -23,6 +23,7 @@ body {
     line-height: 1.6;
     background-color: var(--white);
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 a {
@@ -552,4 +553,30 @@ img { max-width: 100%; display: block; }
     }
 
     .projects-grid, .stats-grid, .footer-grid { grid-template-columns: 1fr; }
+    
+    /* Mobile Spacing & Typography */
+    .about-section, .projects-section, .impact-section, .volunteer-section, .donate-section {
+        padding: 50px 0;
+    }
+    
+    .section-title h2 {
+        font-size: 2rem;
+    }
+    
+    .section-title p {
+        font-size: 1rem;
+    }
+    
+    /* Slider Mobile Fixes */
+    .donation-gallery img {
+        flex: 0 0 260px;
+        height: 300px;
+    }
+    
+    .prev-btn { left: 0px; }
+    .next-btn { right: 0px; }
+    
+    .hero-banner img {
+        margin-top: 10px;
+    }
 }
